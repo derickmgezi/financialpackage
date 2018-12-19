@@ -26,6 +26,31 @@ class PurchaseController extends Controller {
         return view('registervendor');
     }
 
+    public function pr_index() {
+        //
+        return view('purchaserequisition');
+    }
+
+    public function create_PR() {
+        //
+        return view('createPR');
+    }
+
+    public function PR_details($id) {
+        //
+        return view('PRdetails');
+    }
+
+    public function assign_PR($id) {
+        //
+        return view('assignPR');
+    }
+
+    public function upload_quatation($id) {
+        //
+        return view('uploadquatation');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

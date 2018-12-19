@@ -50,131 +50,118 @@
                         <table class="table table-hover mb-4">
                             <thead>
                                 <tr>
-                                    <th scope="col">Vendor ID</th>
-                                    <th scope="col">Vendor Name</th>
-                                    <th scope="col">Services Offered</th>
-                                    <th scope="col">Contact Details</th>
-                                    <th scope="col">Vendor TIN</th>
-                                    <th scope="col">Manage</th>
+                                    <th scope="col" class="font-italic">Vendor ID</th>
+                                    <th scope="col" class="font-italic">Vendor Name</th>
+                                    <th scope="col" class="font-italic">Services Offered</th>
+                                    <th scope="col" class="font-italic">Contact Details</th>
+                                    <th scope="col" class="font-italic">Manage</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
+                                    <td>VND1</th>
+                                    <td>Beka Kioski</td>
                                     <td>Drinks</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
+                                    <td>VND2</th>
+                                    <td>Ngekewa Bar</td>
                                     <td>Drinks</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
-                                    <td>Drinks</td>
+                                    <td>VND3</th>
+                                    <td>Dawasco</td>
+                                    <td>Water</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
-                                    <td>Drinks</td>
+                                    <td>VND4</th>
+                                    <td>Tanesco</td>
+                                    <td>Electricity</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
-                                    <td>Drinks</td>
+                                    <td>VND5</th>
+                                    <td>Usafi Group</td>
+                                    <td>Kuzoa taka</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
+                                    <td>VND6</th>
+                                    <td>Molano</td>
                                     <td>Drinks</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
+                                    <td>VND7</th>
+                                    <td>Mama Max</td>
                                     <td>Drinks</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
+                                    <td>VND8</th>
+                                    <td>Muha Shop</td>
                                     <td>Drinks</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
-                                    <td>Drinks</td>
+                                    <td>VND9</th>
+                                    <td>Matofali Limited</td>
+                                    <td>Buildng Materials</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
-                                    <td>Drinks</td>
+                                    <td>VND10</th>
+                                    <td>DSTV</td>
+                                    <td>Cable TV</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
-                                    <td>Drinks</td>
+                                    <td>VND11</th>
+                                    <td>Azam</td>
+                                    <td>Cable TV</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>VND0001</th>
-                                    <td>Cocacola</td>
+                                    <td>VND12</th>
+                                    <td>Donald Bar</td>
                                     <td>Drinks</td>
                                     <td>P.O.Box 78976 Dar es salaam Tanzania, Tel:+255692-274732</td>
-                                    <td>TIN9234785312</td>
                                     <td>
                                         <a class="btn btn-sm btn-warning" data-toggle="modal" data-target="#exampleModalCenter">Full Details</a>
                                     </td>
@@ -188,7 +175,7 @@
 
         </main>
 
-        <!-- Modal -->
+        <!-- Vendor Details Modal -->
         <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -205,7 +192,7 @@
                         </div>
                         <div class="col-12 row mb-2">
                             <div class="col-6 text-right">Registration ID</div>
-                            <div class="col-6 font-weight-light">VND0001</div>
+                            <div class="col-6 font-weight-light">VND1</div>
                         </div>
                         <div class="col-12 row mb-2">
                             <div class="col-6 text-right">TIN Number</div>
@@ -298,7 +285,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div><!-- end of Vendor Details Modal -->
         
         <!-- SCRIPTS -->
         <!-- JQuery -->

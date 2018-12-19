@@ -14,7 +14,8 @@
         {{ Html::style('css/bootstrap.min.css') }}
 
         <!-- Select2 core CSS -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" /> -->
+        {{ Html::style('css/select2.min.css') }}
         
         <!-- Select2-Bootstrap-Themes core CSS -->
         {{ Html::style('css/select2-bootstrap.css') }}
@@ -55,25 +56,25 @@
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="inputEmail4" class="">Company Name</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="">
+                                <label class="font-weight-bold" for="inputEmail4">Company Name</label>
+                                <input type="email" class="form-control form-control-sm" placeholder="Enter Name of the Company">
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="inputPassword4">TIN number</label>
-                                <input type="text" class="form-control" id="inputPassword4" placeholder="">
+                                <label class="font-weight-bold" for="inputPassword4">TIN number</label>
+                                <input type="text" class="form-control form-control-sm" placeholder="Enter TIN number">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4">
-                                <label for="inputAddress">Company Address</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                <label class="font-weight-bold" for="inputAddress">Company Address</label>
+                                <input type="text" class="form-control form-control-sm" placeholder="Enter Company Address">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputCity">City</label>
-                                <input type="text" class="form-control" id="inputCity">
+                                <label class="font-weight-bold" for="inputCity">City</label>
+                                <input type="text" class="form-control form-control-sm" placeholder="Enter Name of the City the Company is located">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="state" class="control-label">State</label>
+                                <label class="control-label font-weight-bold" for="state">State</label>
                                 <select id="state" class="form-control js-state-single">
                                     <option ></option>
                                     <option>Tanzania</option>
@@ -84,49 +85,49 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4">
-                                <label for="inputAddress">Email Address</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                <label class="font-weight-bold" for="inputAddress">Email Address</label>
+                                <input type="text" class="form-control form-control-sm" id="inputAddress" placeholder="Enter email address of the company">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputCity">Website</label>
-                                <input type="text" class="form-control" id="inputCity">
+                                <label class="font-weight-bold" for="inputCity">Website</label>
+                                <input type="text" class="form-control form-control-sm" id="inputCity" placeholder="Enter Company's website if it exists">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputCity">Office Direct Line</label>
-                                <input type="text" class="form-control" id="inputCity">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-4">
-                                <label for="inputAddress">Name and Title of Company Representative</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputCity">Company Representative Office Tel number</label>
-                                <input type="text" class="form-control" id="inputCity">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="inputCity">Company Representative Telephone number</label>
-                                <input type="text" class="form-control" id="inputCity">
+                                <label class="font-weight-bold" for="inputCity">Office Direct Line</label>
+                                <input type="text" class="form-control form-control-sm" id="inputCity" placeholder="Enter Company's direct Office Line">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4">
-                                <label for="inputAddress">Date Company was established</label>
-                                <input type="date" class="form-control" id="inputAddress" placeholder="">
+                                <label class="font-weight-bold" for="inputAddress">Name and Title of Company Representative</label>
+                                <input type="text" class="form-control form-control-sm" id="inputAddress" placeholder="Enter Name of the Company's CEO">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputCity">Telephone number of Company Representative</label>
-                                <input type="tel" class="form-control" id="inputCity">
+                                <label class="font-weight-bold" for="inputCity">Company Representative Office Tel number</label>
+                                <input type="text" class="form-control form-control-sm" id="inputCity" placeholder="Enter CEO telephone number">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputCity">Alternate Telephone number</label>
-                                <input type="tel" class="form-control" id="inputCity">
+                                <label class="font-weight-bold" for="inputCity">Company Representative Telephone number</label>
+                                <input type="text" class="form-control form-control-sm" id="inputCity" placeholder="Enter CEO mobile number">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4">
-                                <label for="legal-structure" class="control-label">Legal Structure</label>
+                                <label class="font-weight-bold" for="inputAddress">Date Company was established</label>
+                                <input type="date" class="form-control form-control-sm" id="inputAddress" placeholder="Enter date the company was first established">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="font-weight-bold" for="inputCity">Telephone number of Company Representative</label>
+                                <input type="tel" class="form-control form-control-sm" id="inputCity" placeholder="Enter CEO telephone number">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label class="font-weight-bold" for="inputCity">Alternate Telephone number</label>
+                                <input type="tel" class="form-control form-control-sm" id="inputCity" placeholder="Enter CEO mobile number">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label class="control-label font-weight-bold" for="legal-structure">Legal Structure</label>
                                 <select id="legal-structure" class="form-control js-legal-structure-single">
                                     <option ></option>
                                     <option>Corporation</option>
@@ -138,7 +139,7 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="business-service" class="control-label">Type of Business/Commodity Service</label>
+                                <label class="control-label font-weight-bold" for="business-service">Type of Business/Commodity Service</label>
                                 <select id="business-service" class="form-control js-business-service-single">
                                     <option ></option>
                                     <option>Retailer</option>
@@ -155,7 +156,7 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="geographical-area" class="control-label">Geographical Service Area</label>
+                                <label class="control-label font-weight-bold" for="geographical-area">Geographical Service Area</label>
                                 <select id="geographical-area" class="form-control js-geographical-area-single">
                                     <option ></option>
                                     <option>Local</option>
@@ -167,7 +168,7 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <label for="service-detials" class="control-label">Services or Goods Supplied</label>
+                                <label class="control-label font-weight-bold" for="service-detials">Services or Goods Supplied</label>
                                 <select id="service-detials" class="form-control js-service-detials-multiple" multiple="multiple">
                                     <!--<optgroup label="Bear">
                                         <option value="Castle">Castle</option>
@@ -189,7 +190,7 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4">
-                                <label for="payment-method" class="control-label">Payment Method</label>
+                                <label class="control-label font-weight-bold" for="payment-method">Payment Method</label>
                                 <select id="payment-method" class="form-control js-payment-method-single">
                                     <option ></option>
                                     <option>Cash</option>
@@ -198,25 +199,25 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputCity">Bank Name</label>
-                                <input type="tel" class="form-control" id="inputCity">
+                                <label class="font-weight-bold" for="inputCity">Bank Name</label>
+                                <input type="tel" class="form-control form-control-sm" id="inputCity" placeholder="Enter name of the Bank used by the Company">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputCity">Beneficiary Name</label>
-                                <input type="tel" class="form-control" id="inputCity">
+                                <label class="font-weight-bold" for="inputCity">Beneficiary Name</label>
+                                <input type="tel" class="form-control form-control-sm" id="inputCity" placeholder="Enter Company's Bank Account Name">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4">
-                                <label for="inputAddress">Bank Address</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                <label class="font-weight-bold" for="inputAddress">Bank Address</label>
+                                <input type="text" class="form-control form-control-sm" id="inputAddress" placeholder="Enter address of the Bank">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputCity">City</label>
-                                <input type="text" class="form-control" id="inputCity">
+                                <label class="font-weight-bold" for="inputCity">City</label>
+                                <input type="text" class="form-control form-control-sm" id="inputCity" placeholder="Enter the City the Bank is located">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="bank-state" class="control-label">State</label>
+                                <label class="control-label font-weight-bold" for="bank-state">State</label>
                                 <select id="bank-state" class="form-control js-bank-state-single">
                                     <option ></option>
                                     <option>Tanzania</option>
@@ -227,22 +228,22 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4">
-                                <label for="inputAddress">International Bank Account Number (IBAN)</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                <label class="font-weight-bold" for="inputAddress">International Bank Account Number (IBAN)</label>
+                                <input type="text" class="form-control form-control-sm" id="inputAddress" placeholder="Enter Bank's IBAN">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputCity">Swift/Bank Identification Code (BIC)</label>
-                                <input type="text" class="form-control" id="inputCity">
+                                <label class="font-weight-bold" for="inputCity">Swift/Bank Identification Code (BIC)</label>
+                                <input type="text" class="form-control form-control-sm" id="inputCity" placeholder="Enter Banks Swift Code">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputCity">Bank Account Number</label>
-                                <input type="text" class="form-control" id="inputCity">
+                                <label class="font-weight-bold" for="inputCity">Bank Account Number</label>
+                                <input type="text" class="form-control form-control-sm" id="inputCity" placeholder="Enter Company's account number">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
+                                <label class="font-weight-bold" class="form-check-label" for="gridCheck">
                                     I confirm that the information provided is true 
                                 </label>
                             </div>
@@ -260,7 +261,9 @@
         <!-- Bootstrap core JavaScript -->
         {{HTML::script("js/bootstrap.min.js")}}
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>t -->
+        {{HTML::script("js/select2.full.js")}}
         <script>
             // My Select2 Javascript (external .js resource or <script> tag)
             $(document).ready(function () {

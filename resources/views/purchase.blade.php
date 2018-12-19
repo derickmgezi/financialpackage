@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-4 mb-4">
                     <a href="{{ URL::to('vendor') }}" style="text-decoration: none;color: inherit">
-                        <div class="card text-white bg-info w-100 h-100 d-inline-block">
+                        <div class="card bg-light w-100 h-100 d-inline-block">
                             <div class="card-header">Vendor/Supplier List</div>
                             <div class="card-body">
                                 <h5 class="card-title">Description</h5>
@@ -41,7 +41,7 @@
                     </a>
                 </div>
                 <div class="col-4 mb-4">
-                    <a href="#" style="text-decoration: none;color: inherit">
+                    <a href="{{ URL::to('purchaserequisition') }}" style="text-decoration: none;color: inherit">
                         <div class="card text-white bg-secondary w-100 h-100 d-inline-block">
                             <div class="card-header">Purchase Requisition</div>
                             <div class="card-body">
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-4 mb-4">
                     <a href="#" style="text-decoration: none;color: inherit">
-                        <div class="card text-white bg-info w-100 h-100 d-inline-block">
+                        <div class="card bg-light w-100 h-100 d-inline-block">
                             <div class="card-header">Purchase Order</div>
                             <div class="card-body">
                                 <h5 class="card-title">Description</h5>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-4 mb-4">
                     <a href="#" style="text-decoration: none;color: inherit">
-                        <div class="card text-white bg-info w-100 h-100 d-inline-block">
+                        <div class="card bg-light w-100 h-100 d-inline-block">
                             <div class="card-header">Payment</div>
                             <div class="card-body">
                                 <h5 class="card-title">Description</h5>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="col-4 mb-4">
                     <a href="#" style="text-decoration: none;color: inherit">
-                        <div class="card text-white bg-info w-100 h-100 d-inline-block">
+                        <div class="card bg-light w-100 h-100 d-inline-block">
                             <div class="card-header">Stock</div>
                             <div class="card-body">
                                 <h5 class="card-title">Description</h5>
