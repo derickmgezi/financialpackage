@@ -52,7 +52,7 @@
                     </a>
                 </div>
                 <div class="col-4 mb-4">
-                    <a href="#" style="text-decoration: none;color: inherit">
+                    <a href="{{ URL::to('purchaseorder') }}" style="text-decoration: none;color: inherit">
                         <div class="card bg-light w-100 h-100 d-inline-block">
                             <div class="card-header">Purchase Order</div>
                             <div class="card-body">

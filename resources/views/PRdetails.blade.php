@@ -105,8 +105,8 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-3">
-                                <label class="font-weight-bold" for="inputPassword4">Delivery Date</label>
-                                <input type="date" class="form-control form-control-sm" value="17/01/2019" placeholder="Enter Delivery Date" :disabled="edit_PR">
+                                <label class="font-weight-bold" for="inputPassword4">Expected Delivery Date</label>
+                                <input type="date" class="form-control form-control-sm" value="2019-01-22" placeholder="Enter Delivery Date" :disabled="edit_PR">
                             </div>
                         </div>
                         <div class="form-row">

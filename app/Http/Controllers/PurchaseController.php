@@ -41,14 +41,24 @@ class PurchaseController extends Controller {
         return view('PRdetails');
     }
 
-    public function assign_PR($id) {
+    public function select_vendors($id) {
         //
-        return view('assignPR');
+        return view('selectvendors');
     }
 
-    public function upload_quatation($id) {
+    public function upload_quatations($id) {
         //
-        return view('uploadquatation');
+        return view('uploadquatations');
+    }
+
+    public function select_supplier($id) {
+        //
+        return view('selectsupplier');
+    }
+
+    public function purchaseorder() {
+        //
+        return view('purchaseorder');
     }
 
     /**

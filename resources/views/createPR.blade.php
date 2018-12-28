@@ -105,7 +105,7 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-3">
-                                <label class="font-weight-bold" for="inputPassword4">Delivery Date</label>
+                                <label class="font-weight-bold" for="inputPassword4">Expected Delivery Date</label>
                                 <input type="date" class="form-control form-control-sm" placeholder="Enter Delivery Date">
                             </div>
                         </div>

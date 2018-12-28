@@ -24,7 +24,12 @@ Route::get('createPR', 'PurchaseController@create_PR');
 
 Route::get('PRdetails/{id}', 'PurchaseController@PR_details');
 
-Route::get('assignPR/{id}', 'PurchaseController@assign_PR');
+Route::get('selectvendors/{id}', 'PurchaseController@select_vendors');
 
-Route::get('uploadquatation/{id}', 'PurchaseController@upload_quatation');
+Route::get('uploadquatations/{id}', 'PurchaseController@upload_quatations');
+
+Route::get('selectsupplier/{id}', 'PurchaseController@select_supplier');
+
+Route::get('purchaseorder', 'PurchaseController@purchaseorder');
+
 

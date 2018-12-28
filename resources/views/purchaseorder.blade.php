@@ -28,13 +28,13 @@
                     <a href="{{ URL::to('purchase') }}" class="btn btn btn-dark">
                         Purchase Module
                     </a>
-                    <a href="{{ URL::to('purchaserequisition') }}" class="btn btn btn-dark disabled">
-                        Purchase Requisition
+                    <a href="{{ URL::to('purchaseorder') }}" class="btn btn btn-dark disabled">
+                        Purchase Order
                     </a>
                 </div>
                 <div class="col-12 row justify-content-between mb-4">
                     <div class="col-4">
-                        <a href="{{ URL::to('createPR') }}" class="btn btn-success mb-2">Create PR</a>
+                        
                     </div>
 
                     <div class="col-4">
@@ -50,16 +50,18 @@
                         <table class="table table-hover mb-4">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="font-italic">PR ID</th>
-                                    <th scope="col" class="font-italic">PR type</th>
+                                    <th scope="col" class="font-italic">PO Number</th>
+                                    <th scope="col" class="font-italic">PO Type</th>
+                                    <th scope="col" class="font-italic">Relative PR Number</th>
                                     <th scope="col" class="font-italic">PR Description</th>
-                                    <th scope="col" class="font-italic text-center">Manage PR</th>
+                                    <th scope="col" class="font-italic text-center">Manage PO</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>PR1</th>
+                                    <td>PO400000001</th>
                                     <td>Goods</td>
+                                    <td class="text-center">PR1</td>
                                     <td>Purchase of Alcoholic Drinks</td>
                                     <td class="text-center">
                                             <a href="{{ URL::to('PRdetails/PR1') }}" class="btn btn-sm btn-info">PR Details</a>
@@ -67,16 +69,27 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>PR2</th>
+                                    <td>PO400000002</th>
                                     <td>Goods</td>
+                                    <td class="text-center">PR2</td>
                                     <td>Purchase of Soft Drinks</td>
                                     <td class="text-center">
                                         <a href="{{ URL::to('uploadquatations/PR2') }}" class="btn btn-sm btn-success">Upload Quatations</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>PR3</th>
+                                    <td>PO800000001</th>
                                     <td>Services</td>
+                                    <td class="text-center">PR3</td>
+                                    <td>Purchase of Generator and its installation charges</td>
+                                    <td class="text-center">
+                                            <a href="{{ URL::to('selectsupplier/PR3') }}" class="btn btn-sm btn-success">Select Supplier</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>PO400000003</th>
+                                    <td>Goods</td>
+                                    <td class="text-center">PR3</td>
                                     <td>Purchase of Generator and its installation charges</td>
                                     <td class="text-center">
                                             <a href="{{ URL::to('selectsupplier/PR3') }}" class="btn btn-sm btn-success">Select Supplier</a>

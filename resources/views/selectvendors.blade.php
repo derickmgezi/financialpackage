@@ -48,20 +48,21 @@
                     <a href="{{ URL::to('purchaserequisition') }}" class="btn btn btn-dark">
                         Purchase Requisition
                     </a>
-                    <a href="{{ URL::to('assignPR/PR1') }}" class="btn btn btn-dark disabled">
-                        Assign PR 
+                    <a href="{{ URL::to('selectvendors/PR1') }}" class="btn btn btn-dark disabled">
+                        Select Vendors
                     </a>
                 </div>
                 <div class="col-12 text-center mb-3">
                         <div class="card bg-light">
                             <div class="card-header ">
-                                <strong>Assign PR1 to Vendors</strong>
+                                <strong>Select Vendors for PR1</strong>
                             </div>
                         </div>
                 </div>
                 <div class="col-12 mb-4">
                     <div class="alert alert-info" role="alert">
                         <!-- <span class="h5">Point to consider!<br></span> -->
+                        <a href="#" class="alert-link">Vendor Selection</a><br>
                         <span>Make sure you contact <a href="#" class="alert-link">atleast three Vendors</a></span>
                         <hr>
                         <span>A waiver form will be required incase less than <a href="#" class="alert-link">three vendors</a> will be contacted</span>
@@ -130,8 +131,8 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-3">
-                                <label class="font-weight-bold" for="inputPassword4">Delivery Date</label>
-                                <input type="date" class="form-control form-control-sm" value="17/01/2019" placeholder="Enter Delivery Date" disabled>
+                                <label class="font-weight-bold" for="inputPassword4">Expected Delivery Date</label>
+                                <input type="date" class="form-control form-control-sm" value="2019-01-22" placeholder="Enter Delivery Date" disabled>
                             </div>
                         </div>
                         <div class="form-row">
@@ -222,7 +223,7 @@
                                 <input type="number" min="1" class="form-control form-control-sm" value="8" placeholder="Quantity" disabled>
                             </div>
                             <div class="form-group shadow-textarea col-md-5">
-                            <textarea type="text" rows="3" class="form-control form-control-sm" placeholder="Enter Specs" disabled>Konyagi Ndogo Wiskey Botlle of 500ml</textarea>
+                                <textarea type="text" rows="3" class="form-control form-control-sm" placeholder="Enter Specs" disabled>Konyagi Ndogo Wiskey Botlle of 500ml</textarea>
                             </div>
                         </div>
                     </form>
